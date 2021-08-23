@@ -8,6 +8,7 @@ txt = open(filename)
 print ("Here's your file %r:" % filename)
 # print out the txt file
 print (txt.read()) 
+txt.close()
 #tell user input what file is next
 print ("Type the filename again:")
 #let user input what file is next
@@ -15,9 +16,10 @@ file_again = input("> ")
 #open the file and print the file. 
 txt_again = open(file_again) 
 print (txt_again.read())
-
+txt_again.close()
 print ("Type the filename again:")
 txt_again = open(file_again) 
 print (txt_again.read())
-
-# if no raw input it will open the same file as before. 
+txt_again.close()
+# the content in the file will not print twice
+# using argument can also be away, and it run faster, but input can tell user what you want them to put in. 
