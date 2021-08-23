@@ -16,3 +16,4 @@ print (fat_cat)
 # while True:
 # for i in ["/","-","|","\\", "|"]:
 #     print("%s\r"%i ),
+#2. when I need to print out charecter that need to be escape. 

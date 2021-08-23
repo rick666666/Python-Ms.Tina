@@ -1,6 +1,6 @@
 from sys import argv 
 script, user_name = argv 
-prompt = '>' 
+prompt = '>>>' 
 print ("Hi %s, I'm the %s script." % (user_name, script) )
 print ("I'd like to ask you a few questions." )
 print (("Do you like me %s?") % user_name ) 
@@ -10,3 +10,8 @@ lives = input(prompt)
 print (("What kind of computer do you have?") )
 computer = input(prompt)
 print ((""" Alright, so you said %r about liking me. You live in %r. Not sure where that is. And you have a %r computer. Nice. """) % (likes, lives, computer) )
+
+print("Hi your name is %s right? \nYour file is %r \nhow are you?" % (user_name, script))
+respond = input(prompt)
+print("so you feel %s today great!" % (respond))
+# 1. it is about asking if I like him and and where do I live and what computer I have. 
