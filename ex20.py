@@ -38,3 +38,16 @@ print_a_line(current_line, current_file)
 current_line += + 1
 #use funciton print_a_line with variable current_line, current_file
 print_a_line(current_line, current_file)
+def plus(a,b):
+    print(a+b)
+
+plus(1,2)
+plus(2,2)
+plus(3,2345)
+plus(4,29786)
+plus(5,2867)
+plus(6,23432)
+plus(7,24321)
+plus(8,24321)
+plus(9,4321)
+plus(10,4321)
