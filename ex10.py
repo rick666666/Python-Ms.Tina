@@ -13,7 +13,12 @@ print (persian_cat)
 print (backslash_cat) 
 print (fat_cat)
 
+i="fds'a"
+
+print ("%s\r" % i)
 # while True:
 # for i in ["/","-","|","\\", "|"]:
 #     print("%s\r"%i ),
 #2. when I need to print out charecter that need to be escape. 
+# %s uses the str function and %r uses the repr function 
+# %r  all / " are escape

@@ -35,4 +35,5 @@ w = "This is the left side of..."
 e = "a string with a right side."
 
 #print out w and e. 
+# because + is core developers of Python defined that operator.
 print(w + e)
