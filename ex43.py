@@ -348,3 +348,9 @@ a_map = Map('central_corridor')
 a_hero = Hero('Joe')
 a_game = Engine(a_map, a_hero)
 a_game.play()
+
+# 1. the while loop only set to 10 time max. 
+# 
+# 
+# 
+# 
